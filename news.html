@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles2.css">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Covid-19 Data</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+ 
+
+<link rel="stylesheet" href="main.css">
+ 
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+      $(".navbar").slicknav({
+          prependTo: "#mobilemenu"
+      });
+  });
+</script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">COVID-19 Data</div>
+            <div class="main1"> <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="50%" height="600px; border: 0px none;"></iframe></div>
+           <div class="main2"><iframe src="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case?country=USA+ESP+ITA+KOR+TWN+GBR+NOR" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+           </div>
+           <div  class="main3"><iframe src="https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand" style="width: 100%; height: 600px; border: 0px none;"></iframe></div>
+           
+            <div class="footer"><iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA+ESP+USA" style="width: 100%; height: 600px; border: 0px none;"></iframe></div>
+        </div>
+     
+          
+ 
+<nav id="mobilemenu"></nav>
+    
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="news.html">Data</a>
+    <div class="dropdown">
+      <button class="dropbtn">More 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC</a>
+        <a href="https://www.who.int/">WHO</a>
+        <a href="https://www.nih.gov/">NIHS</a>
+      </div>
+    </div> 
+  </div>
+</html>

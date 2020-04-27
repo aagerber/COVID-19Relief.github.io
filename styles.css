@@ -1,0 +1,182 @@
+.container{
+    display: grid;
+   grid-gap: 1em;
+   grid-template-areas: 
+   "h h h h h h h h h h h h h h h h h h h h h h h h h h h h h h h h"
+   " m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m1 m2 m3"
+   "f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f " ;
+   
+}
+.header{
+     grid-area: h ;
+     border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 5%;
+color: white;
+  background-color: #007c91;
+  text-align: center;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+
+.main1{
+    grid-area: m1;
+
+ border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #D1E7E9;
+  border-width: 30%;
+  padding: 50%;
+  text-align: center;
+  background-image: url(https://news.sanfordhealth.org/wp-content/uploads/2020/03/019037-00167-FACEBOOK-COVID-19-Three-Symptoms-800x800-1.jpg);
+ background-size: cover;
+  font-size: 5em;
+ background-position:center ;
+}
+    
+
+.main2{
+    grid-area: m2;
+    border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  font-size: 1.5em; 
+  padding: 10%;
+  background-color: #D1E7E9;
+  font-weight: normal;
+  color: #007c91 !important;
+}
+
+
+.main3{
+    grid-area: m3;
+    border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  font-size: 4em; 
+  padding: 20%;
+  background-color: #116979;
+   text-align: center;
+}
+
+.footer{
+    grid-area: f;
+    border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  padding: 15%;
+  color: white;
+background-color: #18b0b0;
+text-align: center;
+font-size: 3em;
+font-weight: bold;
+}
+
+  
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+ position: absolute;
+ top: 8px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 2em;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #333;
+    min-width: 1em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(230, 142, 142);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+ 
+  }
+  .slicknav_menu {
+    display: none;
+  }
+  * {
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 920px)  {
+    .container {
+
+   
+        grid-template-areas:
+        "h   h"
+        "m1  m1"
+        "m1 m1"
+        "m1  m1"
+        "m1 m1"
+        "m2 m2"
+        "m3 m3"
+        "f   f";
+    }
+
+
+   
+    
+        
+       
+   	
+.navbar{
+    display: none;
+}
+  
+ 
+  .slicknav_menu {
+    display: block;
+  position: absolute;
+  top: 8px;
+  }
+  }
+    
+
+    
